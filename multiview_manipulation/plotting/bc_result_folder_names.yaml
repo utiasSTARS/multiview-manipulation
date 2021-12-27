@@ -1,0 +1,37 @@
+# order for each is mult on mult, mult on fixed, fixed on mult, fixed on fixed
+
+LiftSim:
+  - ThingLiftXYZStateMultiview_100_Interval25
+  - ThingLiftXYZState_100_MultiviewPolOnImage
+  - ThingLiftXYZStateMultiview_100_ImagePolOnMultiview
+  - ThingLiftXYZState_100_Interval25
+
+StackSim:
+  - ThingStackMultiviewV2_100_Interval25
+  - ThingStackSameImageV2_100_MultiviewPolOnImage
+  - ThingStackMultiviewV2_100_ImagePolOnMultiview
+  - ThingStackSameImageV2_100_Interval25
+
+PickAndInsertSim:
+  - ThingPickAndInsertSucDoneMultiview_100_Interval25
+  - ThingPickAndInsertSucDoneImage_100_MultiviewPolOnImage
+  - ThingPickAndInsertSucDoneMultiview_100_ImagePolOnMultiview
+  - ThingPickAndInsertSucDoneImage_100_Interval25
+
+DoorSim:
+  - ThingDoorMultiview_100_Interval25
+  - ThingDoorImage_100_MultiviewPolOnImage
+  - ThingDoorMultiview_100_ImagePolOnMultiview
+  - ThingDoorImage_100_Interval25
+
+PickAndInsertReal:
+  - ThingRosPickAndInsertCloser6DOFImageMB_100_PaperDataFeb2_959am
+
+DoorReal:
+  - ThingRosDoorRanGrip6DOFImageMB_100_PaperDataJan31_1123am
+  - ThingRosDoorRanGrip6DOFImage_100_PaperDataFeb2_DoorMultOnFixed_1200pm
+  - ThingRosDoorRanGrip6DOFImageMB_100_PaperDataFeb2_DoorFixedOnMultiview_215pm
+  - ThingRosDoorRanGrip6DOFImage_100_PaperDataFeb2_DoorFixedOnFixed_105pm
+
+DrawerReal:
+  - ThingRosDrawerRanGrip6DOFImageMB_100_PaperDataJan31_153pm
