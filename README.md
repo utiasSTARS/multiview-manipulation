@@ -3,7 +3,8 @@
 *Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS’21)*
 
 **Paper website:** https://papers.starslab.ca/multiview-manipulation/  
-**arXiv paper:** https://arxiv.org/abs/2104.13907
+**arXiv paper:** https://arxiv.org/abs/2104.13907  
+**DOI:** https://doi.org/10.1109/IROS51168.2021.9636440
 
 ****
 <img src="https://raw.githubusercontent.com/utiasSTARS/multiview-manipulation/master/system.png" width="95%" >
