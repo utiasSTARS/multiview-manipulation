@@ -6,7 +6,7 @@
 **arXiv paper:** https://arxiv.org/abs/2104.13907
 
 ****
-<img src="https://raw.githubusercontent.com/utiasSTARS/multiview-manipulation/master/system.png" width="75%" >
+<img src="https://raw.githubusercontent.com/utiasSTARS/multiview-manipulation/master/system.png" width="95%" >
 
 This work was motivated by a relatively simple question: will increasingly popular end-to-end visuomotor policies work on a mobile manipulator, where the angle of the base will not be repeatable from one execution of a task to another? We conducted a variety of experiments to show that, naively, policies trained on fixed-base data with imitation learning do _not_ generalize to various poses, and also generate _multiview_ datasets and corresponding multiview policies to remedy the problem.
 
