@@ -8,7 +8,7 @@ setup(
     author_email='trevor.ablett@robotics.utias.utoronto.ca',
     license='MIT',
     packages=find_packages(),
-    install_requires=['manipulator_learning @ git+https://git@github.com/utiasSTARS/manipulator_learning@master#egg=manipulator_learning',
+    install_requires=['manipulator_learning @ git+https://git@github.com/fstramandinoli/manipulator_learning@master#egg=manipulator_learning',
                       'tensorflow-gpu==2.*',
                       'tensorflow-probability',
                       'numpy',
